@@ -40,3 +40,10 @@ $sangam-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+// global css
+@import './scss/layout/layout-main';
+@import './scss/theme-color/theme-main';
+@import './scss/base/base-main';
+@import './scss/components/component-main';

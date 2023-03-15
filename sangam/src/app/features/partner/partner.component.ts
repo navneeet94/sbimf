@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./partner.component.scss']
 })
 export class PartnerComponent {
-
+  navbar_type = 'default'
+  platform_type = 'partner'
 }

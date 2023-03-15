@@ -1,0 +1,47 @@
+.banner {
+  padding: 7rem 0px;
+
+  .text-part {
+    padding-left: 13rem;
+
+    h1 {
+      font-size: 5rem;
+      margin-bottom: 15px;
+      color: #000;
+    }
+
+    p {
+      font-size: 2rem;
+      max-width: 555px;
+    }
+
+    .points_boxes {
+      max-width: 525px;
+      margin-top: 4rem;
+
+      .small-boxes {
+        img {
+          height: 35px;
+        }
+
+        span {
+          font-size: 14px;
+          margin-top: 15px;
+        }
+      }
+    }
+
+    .account-wrapper {
+      margin-top: 30px;
+      .medium-button {
+          margin-right: 20px;
+      }
+    }
+  }
+
+  .computer-graphic {
+    max-height: 426px;
+    object-fit: contain;
+    object-position: right;
+  }
+}

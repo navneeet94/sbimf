@@ -1,0 +1,11 @@
+// header
+header{
+  background: $primary-color;
+  .right_links{
+    .btn{
+      &.btn-primary{
+        color: $primary-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+// buttons
+.btn{
+  &.btn-primary{
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+  }
+  &.btn-link{
+    color: $secondary-color;
+  }
+}

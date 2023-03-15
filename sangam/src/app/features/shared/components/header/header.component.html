@@ -1,8 +1,50 @@
-<header >
-  {{title}}
-  <nav *ngIf="title === 'default'">
-    <a href="" class="mr-2">Home</a>
-    <a href="" class="mr-2">About</a>
-    <a href="" class="mr-2">Login</a>
-  </nav>
+<header>
+  <!-- getting type from header -->
+  <span class="d-none">{{type}}</span>
+  <span class="d-none">{{platform}}</span>
+
+  <div class="container-fluid">
+    <!-- Partner Default Header -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light bg-transparent" *ngIf="type === 'default'">
+      <a class="navbar-brand" href="#">
+        <ng-container *ngIf="platform === 'partner'">
+          <img src="../../../../../assets/images/partner-logo.png" alt="partner-logo" />
+        </ng-container>
+      </a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+          aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto left-links mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Plan Investments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Investor Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQs</a>
+          </li>
+          <li class="nav-item"><a class="d-inline-block store-button" href=""><img src="../../../../../assets/images/play-store.png" alt="play store" /></a></li>
+          <li class="nav-item"><a class="d-inline-block store-button" href=""><img src="../../../../../assets/images/apple-store.png" alt="apple store" /></a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto right_links mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a href="#" class="btn btn-outline-primary">Empanel with us</a>
+          </li>
+          <li>
+            <a href="#" class="btn btn-primary">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 </header>
+

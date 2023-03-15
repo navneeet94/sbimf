@@ -1,0 +1,52 @@
+header{
+  padding: 1.6rem 1.5rem;
+  nav{
+    padding: 0 !important;
+    .navbar-brand {
+        margin-right: 3.5rem;
+    }
+    .left-links{
+      .nav-link{
+        color: #fff;
+        margin-right: 3rem;
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+      .store-button{
+        position: relative;
+        bottom: 0;
+        margin-right: 1.5rem;
+      }
+    }
+
+    .right_links{
+      li{
+        margin-right: 2rem;
+        .btn {
+            padding: 0.2rem 1.5rem;
+            min-width: 100px;
+            border-radius: 0.4rem;
+            &.btn-outline-primary {
+              border-color: #fff;
+              border-width: 2px;
+              color: #fff;
+              opacity: 0.8;
+              &:hover , &:active{
+                opacity: 1;
+                background-color: transparent !important;
+              }
+          }
+          &.btn-primary{
+            background-color: #fff;
+            border-color: #fff;
+            border-width: 2px;
+            &:hover{
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+  }
+}
