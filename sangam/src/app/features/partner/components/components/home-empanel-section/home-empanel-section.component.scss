@@ -1,0 +1,84 @@
+.empanel {
+  padding: 7rem 0;
+  color: #fff;
+  h2{
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 1.6rem;
+  }
+  .left_texture{
+    p{
+      max-width: 497px;
+      &:nth-last-child(1){
+        margin: 0;
+      }
+    }
+
+    .medium-button{
+      min-width: 155px;
+    }
+
+    .btn-link{
+      color: #fff;
+    }
+
+    .emapanel_actions {
+        margin-top: 6rem;
+        margin-bottom: 1.6rem;
+    }
+    .note{
+      font-size: 1.2rem;
+    }
+  }
+
+  .right_texture{
+    ul{
+      padding-left: 0;
+      list-style: none;
+      margin: 0;
+      li{
+        padding-bottom: 4.6rem;
+        margin-bottom: 0.3rem;
+        position: relative;
+        padding-left: 3.6rem;
+        div{
+          position: relative;
+          top: -0.5rem;
+          span{
+            font-size: 2rem;
+          }
+          p{
+            opacity: 0.8;
+          }
+        }
+        &:after{
+          content: "";
+          position: absolute;
+          top:0;
+          left: 0;
+          height: 100%;
+          border-left: 1px dashed #fff;
+          opacity: 0.8;
+        }
+        &:before{
+          content: "";
+          position: absolute;
+          top: 0;
+          left: -4px;
+          width: 10px;
+          height: 10px;
+          background: #fff;
+          border-radius: 50%;
+          z-index: 1;
+        }
+
+        &:last-child{
+          padding-bottom: 0;
+          &:after{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
