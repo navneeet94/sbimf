@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PartnerRoutingModule } from './partner-routing.module';
 import { PartnerComponent } from './partner.component';
-
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -11,6 +11,7 @@ import { PartnerComponent } from './partner.component';
   ],
   imports: [
     CommonModule,
+    SharedModule,
     PartnerRoutingModule
   ]
 })
