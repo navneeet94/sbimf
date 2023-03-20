@@ -1,3 +1,24 @@
+::-webkit-scrollbar {
+  width: 10px;
+  background: #f1f1f1;
+  border-left: 1px solid #ccc;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+
 html{
   font-size: 10px;
 }
@@ -5,4 +26,5 @@ html{
 body{
   font-size: 1.6rem;
   font-family: 'Nunito', sans-serif;
+  padding-top: 10.6rem;
 }

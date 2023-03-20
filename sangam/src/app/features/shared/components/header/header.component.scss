@@ -1,8 +1,9 @@
 header {
   padding: 1.6rem 1.5rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 100;
+  width: 100%;
 
   nav {
     padding: 0 !important;
